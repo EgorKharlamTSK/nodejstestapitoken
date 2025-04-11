@@ -4,7 +4,9 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const PORT = 3333;
-const SECRET_KEY = 'your-secret-key';
+const SECRET_KEY = 'your-secret-key'; //Это переменная, хранящая строку,
+// которая используется как секретный ключ для алгоритма подписи.
+// Она должна быть достаточно сложной и уникальной, чтобы обеспечить безопасность токенов.
 
 app.use(bodyParser.json());
 
