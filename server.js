@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const PORT = 3333;
-const SECRET_KEY = 'your-secret-key'; // Замените на ваш секретный ключ
+const SECRET_KEY = 'your-secret-key';
 
 app.use(bodyParser.json());
 
